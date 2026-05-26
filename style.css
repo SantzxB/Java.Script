@@ -1,0 +1,40 @@
+/* ==========================================================================
+   1. IMPORTAÇÃO DA FONTE WESTERN
+   ========================================================================== */
+/* Importando uma fonte gratuita que remete aos letreiros do Velho Oeste */
+@import url('https://fonts.googleapis.com/css2?family=Rye&family=Special+Elite&display=swap');
+
+/* ==========================================================================
+   2. CONFIGURAÇÕES GERAIS (O CLIMA DO JOGO)
+   ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Fundo escuro com textura que lembra couro velho ou carvão, com o degradê vermelho dramático do jogo */
+    background: radial-gradient(circle, #b11616 0%, #1a0303 100%);
+    background-color: #120202;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Special Elite', Courier, monospace; /* Fonte estilo máquina de escrever/documento antigo */
+    color: #e2d1b7; /* Tom de bege/papel envelhecido para os textos */
+}
+
+/* ==========================================================================
+   3. TIPOGRAFIA & IDENTIDADE (RED DEAD STYLE)
+   ========================================================================== */
+h1 {
+    font-family: 'Rye', cursive; /* Fonte estilo Faroeste */
+    font-size: 3rem;
+    color: #e2d1b7;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 0px #000000;
+    margin-bottom: 30px;
+    text-align: center;
